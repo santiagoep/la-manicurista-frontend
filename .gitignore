@@ -1,0 +1,35 @@
+# next.js build output
+.next
+build/
+.vercel
+
+# dotenv environment variables file
+.env
+
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# coverage
+coverage
+
+# npm
+.npm
+.npmrc
+
+# ide
+.idea/
+bvc-digital-market-frontend.iml
+.vscode/
+
+# system
+**/.DS_Store
+.DS_Store
+
+# Cypress
+src/__e2e-test__/cypress/videos/*
+src/__e2e-test__/cypress/screenshots/*

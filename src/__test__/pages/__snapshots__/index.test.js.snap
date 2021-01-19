@@ -1,0 +1,503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
+      >
+        <span
+          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+        >
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+            data-testid="accessibility__font-size"
+          >
+            fontSize:md
+          </div>
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+            data-testid="accessibility__theme"
+          >
+            theme:LIGHT
+          </div>
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+            data-testid="accessibility__language"
+          >
+            language:es
+          </div>
+        </span>
+        <div
+          class="MainLayoutstyled__StyledTitleContainer-sc-1uk67oq-1 cPFpEA"
+        >
+          <img
+            alt="LaManicurista Logo"
+            class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+            src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
+          />
+        </div>
+        <main
+          class="Homestyled__StyledContainer-gacu5o-0 hxmUdL"
+        >
+          <section
+            class="Homestyled__SearchTracksContainer-gacu5o-1 bfDpHy home__track-list"
+          >
+            <section
+              class="SearchTracksstyled__StyledContainer-sc-1g0chxg-0 ifHPCW"
+            >
+              <div
+                class="SearchTracksstyled__StyledSearchContainer-sc-1g0chxg-1 jbUvXr"
+              >
+                <div
+                  class="Inputstyled__StyledContainer-sc-792yv1-0 rXHmE"
+                >
+                  <input
+                    class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                    placeholder="searchATrack0"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="Tracksstyled-sc-1s9luj-0 fScuWA"
+              />
+            </section>
+          </section>
+          <section
+            class="Homestyled__StyledTrackDetailContainer-gacu5o-2 jUZFLc home__track-detail"
+          >
+            <div
+              class="TrackDetailstyled__StyledContainer-sc-1gxe0hv-0 iBONxt"
+            >
+              <div
+                class="TrackDetailstyled__StyledSelectATrack-sc-1gxe0hv-1 hBsWtN"
+                data-testid="track-detail__no-track-selected"
+              >
+                <svg
+                  class="Music__StyledSvg-sc-127pjpx-0 gGuPkY"
+                  fill="black"
+                  viewBox="0 0 512 512"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M491.243,235.243h-6.919v-102.63c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v102.63h-41.514V96.865 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v138.378H318.27v-76.108c0-11.463-9.293-20.757-20.757-20.757 c-11.463,0-20.757,9.294-20.757,20.757v76.108h-41.514V48.432c0-11.463-9.293-20.757-20.757-20.757s-20.757,9.294-20.757,20.757 v186.811h-41.513V131.459c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v103.784H69.189v-62.27 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v62.27h-6.919C9.294,235.243,0,244.537,0,256 s9.294,20.757,20.757,20.757h6.919v62.27c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757v-62.27h41.513v103.784 c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.513v186.811c0,11.463,9.294,20.757,20.757,20.757 s20.757-9.294,20.757-20.757V276.757h41.514v76.108c0,11.463,9.293,20.757,20.757,20.757c11.463,0,20.757-9.294,20.757-20.757 v-76.108h41.514v138.378c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.514v104.938 c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h6.919c11.463,0,20.757-9.294,20.757-20.757 S502.707,235.243,491.243,235.243z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                <span
+                  class="TrackDetailstyled__StyledSpan-sc-1gxe0hv-2 gMHxUT"
+                >
+                  selectATrack
+                </span>
+              </div>
+            </div>
+          </section>
+        </main>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
+    >
+      <span
+        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+      >
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+          data-testid="accessibility__font-size"
+        >
+          fontSize:md
+        </div>
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+          data-testid="accessibility__theme"
+        >
+          theme:LIGHT
+        </div>
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+          data-testid="accessibility__language"
+        >
+          language:es
+        </div>
+      </span>
+      <div
+        class="MainLayoutstyled__StyledTitleContainer-sc-1uk67oq-1 cPFpEA"
+      >
+        <img
+          alt="LaManicurista Logo"
+          class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+          src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
+        />
+      </div>
+      <main
+        class="Homestyled__StyledContainer-gacu5o-0 hxmUdL"
+      >
+        <section
+          class="Homestyled__SearchTracksContainer-gacu5o-1 bfDpHy home__track-list"
+        >
+          <section
+            class="SearchTracksstyled__StyledContainer-sc-1g0chxg-0 ifHPCW"
+          >
+            <div
+              class="SearchTracksstyled__StyledSearchContainer-sc-1g0chxg-1 jbUvXr"
+            >
+              <div
+                class="Inputstyled__StyledContainer-sc-792yv1-0 rXHmE"
+              >
+                <input
+                  class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                  placeholder="searchATrack0"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              class="Tracksstyled-sc-1s9luj-0 fScuWA"
+            />
+          </section>
+        </section>
+        <section
+          class="Homestyled__StyledTrackDetailContainer-gacu5o-2 jUZFLc home__track-detail"
+        >
+          <div
+            class="TrackDetailstyled__StyledContainer-sc-1gxe0hv-0 iBONxt"
+          >
+            <div
+              class="TrackDetailstyled__StyledSelectATrack-sc-1gxe0hv-1 hBsWtN"
+              data-testid="track-detail__no-track-selected"
+            >
+              <svg
+                class="Music__StyledSvg-sc-127pjpx-0 gGuPkY"
+                fill="black"
+                viewBox="0 0 512 512"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M491.243,235.243h-6.919v-102.63c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v102.63h-41.514V96.865 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v138.378H318.27v-76.108c0-11.463-9.293-20.757-20.757-20.757 c-11.463,0-20.757,9.294-20.757,20.757v76.108h-41.514V48.432c0-11.463-9.293-20.757-20.757-20.757s-20.757,9.294-20.757,20.757 v186.811h-41.513V131.459c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v103.784H69.189v-62.27 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v62.27h-6.919C9.294,235.243,0,244.537,0,256 s9.294,20.757,20.757,20.757h6.919v62.27c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757v-62.27h41.513v103.784 c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.513v186.811c0,11.463,9.294,20.757,20.757,20.757 s20.757-9.294,20.757-20.757V276.757h41.514v76.108c0,11.463,9.293,20.757,20.757,20.757c11.463,0,20.757-9.294,20.757-20.757 v-76.108h41.514v138.378c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.514v104.938 c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h6.919c11.463,0,20.757-9.294,20.757-20.757 S502.707,235.243,491.243,235.243z"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <span
+                class="TrackDetailstyled__StyledSpan-sc-1gxe0hv-2 gMHxUT"
+              >
+                selectATrack
+              </span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Home should render snapshot in mobile 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
+      >
+        <span
+          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+        >
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+            data-testid="accessibility__font-size"
+          >
+            fontSize:md
+          </div>
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+            data-testid="accessibility__theme"
+          >
+            theme:LIGHT
+          </div>
+          <div
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+            data-testid="accessibility__language"
+          >
+            language:es
+          </div>
+        </span>
+        <div
+          class="MainLayoutstyled__StyledTitleContainer-sc-1uk67oq-1 cPFpEA"
+        >
+          <img
+            alt="LaManicurista Logo"
+            class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+            src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
+          />
+        </div>
+        <main
+          class="Homestyled__StyledContainer-gacu5o-0 hxmUdL"
+        >
+          <section
+            class="Homestyled__SearchTracksContainer-gacu5o-1 bfDpHy home__track-list"
+          >
+            <section
+              class="SearchTracksstyled__StyledContainer-sc-1g0chxg-0 ifHPCW"
+            >
+              <div
+                class="SearchTracksstyled__StyledSearchContainer-sc-1g0chxg-1 jbUvXr"
+              >
+                <div
+                  class="Inputstyled__StyledContainer-sc-792yv1-0 rXHmE"
+                >
+                  <input
+                    class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                    placeholder="searchATrack0"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="Tracksstyled-sc-1s9luj-0 fScuWA"
+              />
+            </section>
+          </section>
+          <section
+            class="Homestyled__StyledTrackDetailContainer-gacu5o-2 jUZFLc home__track-detail"
+          >
+            <div
+              class="TrackDetailstyled__StyledContainer-sc-1gxe0hv-0 iBONxt"
+            >
+              <div
+                class="TrackDetailstyled__StyledSelectATrack-sc-1gxe0hv-1 hBsWtN"
+                data-testid="track-detail__no-track-selected"
+              >
+                <svg
+                  class="Music__StyledSvg-sc-127pjpx-0 gGuPkY"
+                  fill="black"
+                  viewBox="0 0 512 512"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M491.243,235.243h-6.919v-102.63c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v102.63h-41.514V96.865 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v138.378H318.27v-76.108c0-11.463-9.293-20.757-20.757-20.757 c-11.463,0-20.757,9.294-20.757,20.757v76.108h-41.514V48.432c0-11.463-9.293-20.757-20.757-20.757s-20.757,9.294-20.757,20.757 v186.811h-41.513V131.459c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v103.784H69.189v-62.27 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v62.27h-6.919C9.294,235.243,0,244.537,0,256 s9.294,20.757,20.757,20.757h6.919v62.27c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757v-62.27h41.513v103.784 c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.513v186.811c0,11.463,9.294,20.757,20.757,20.757 s20.757-9.294,20.757-20.757V276.757h41.514v76.108c0,11.463,9.293,20.757,20.757,20.757c11.463,0,20.757-9.294,20.757-20.757 v-76.108h41.514v138.378c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.514v104.938 c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h6.919c11.463,0,20.757-9.294,20.757-20.757 S502.707,235.243,491.243,235.243z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                <span
+                  class="TrackDetailstyled__StyledSpan-sc-1gxe0hv-2 gMHxUT"
+                >
+                  selectATrack
+                </span>
+              </div>
+            </div>
+          </section>
+        </main>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
+    >
+      <span
+        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+      >
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+          data-testid="accessibility__font-size"
+        >
+          fontSize:md
+        </div>
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+          data-testid="accessibility__theme"
+        >
+          theme:LIGHT
+        </div>
+        <div
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+          data-testid="accessibility__language"
+        >
+          language:es
+        </div>
+      </span>
+      <div
+        class="MainLayoutstyled__StyledTitleContainer-sc-1uk67oq-1 cPFpEA"
+      >
+        <img
+          alt="LaManicurista Logo"
+          class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+          src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
+        />
+      </div>
+      <main
+        class="Homestyled__StyledContainer-gacu5o-0 hxmUdL"
+      >
+        <section
+          class="Homestyled__SearchTracksContainer-gacu5o-1 bfDpHy home__track-list"
+        >
+          <section
+            class="SearchTracksstyled__StyledContainer-sc-1g0chxg-0 ifHPCW"
+          >
+            <div
+              class="SearchTracksstyled__StyledSearchContainer-sc-1g0chxg-1 jbUvXr"
+            >
+              <div
+                class="Inputstyled__StyledContainer-sc-792yv1-0 rXHmE"
+              >
+                <input
+                  class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                  placeholder="searchATrack0"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              class="Tracksstyled-sc-1s9luj-0 fScuWA"
+            />
+          </section>
+        </section>
+        <section
+          class="Homestyled__StyledTrackDetailContainer-gacu5o-2 jUZFLc home__track-detail"
+        >
+          <div
+            class="TrackDetailstyled__StyledContainer-sc-1gxe0hv-0 iBONxt"
+          >
+            <div
+              class="TrackDetailstyled__StyledSelectATrack-sc-1gxe0hv-1 hBsWtN"
+              data-testid="track-detail__no-track-selected"
+            >
+              <svg
+                class="Music__StyledSvg-sc-127pjpx-0 gGuPkY"
+                fill="black"
+                viewBox="0 0 512 512"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M491.243,235.243h-6.919v-102.63c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v102.63h-41.514V96.865 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v138.378H318.27v-76.108c0-11.463-9.293-20.757-20.757-20.757 c-11.463,0-20.757,9.294-20.757,20.757v76.108h-41.514V48.432c0-11.463-9.293-20.757-20.757-20.757s-20.757,9.294-20.757,20.757 v186.811h-41.513V131.459c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.294-20.757,20.757v103.784H69.189v-62.27 c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v62.27h-6.919C9.294,235.243,0,244.537,0,256 s9.294,20.757,20.757,20.757h6.919v62.27c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757v-62.27h41.513v103.784 c0,11.463,9.294,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.513v186.811c0,11.463,9.294,20.757,20.757,20.757 s20.757-9.294,20.757-20.757V276.757h41.514v76.108c0,11.463,9.293,20.757,20.757,20.757c11.463,0,20.757-9.294,20.757-20.757 v-76.108h41.514v138.378c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h41.514v104.938 c0,11.463,9.293,20.757,20.757,20.757s20.757-9.294,20.757-20.757V276.757h6.919c11.463,0,20.757-9.294,20.757-20.757 S502.707,235.243,491.243,235.243z"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <span
+                class="TrackDetailstyled__StyledSpan-sc-1gxe0hv-2 gMHxUT"
+              >
+                selectATrack
+              </span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
