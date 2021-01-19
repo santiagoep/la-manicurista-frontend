@@ -61,7 +61,7 @@ const useTrackSearch = ({
     } else {
       firstUpdate.current = false;
     }
-  }, [page, query]);
+  }, [page, query, limit, market]);
 
   return {
     tracks,

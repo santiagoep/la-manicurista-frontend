@@ -7,7 +7,7 @@ export const StyledContainer = styled.span`
   right: 11px;
   transform: rotate(-90deg);
   transform-origin: right;
-  ${({ theme }) => theme.breakpoints.tablet} {
+  ${({ theme }) => theme.breakpoints.laptop} {
     transform: none;
     top: 0;
     right: 0;
@@ -24,7 +24,7 @@ export const StyledItem = styled.div`
   margin: ${({ theme }) => theme.utils.spacing(0, 1)};
   border-radius: 15px 15px 0 0;
   height: 15px;
-  ${({ theme }) => theme.breakpoints.tablet} {
+  ${({ theme }) => theme.breakpoints.laptop} {
     border-radius: 0 0 15px 15px;
   }
 `;

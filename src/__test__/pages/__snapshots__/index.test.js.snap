@@ -9,22 +9,22 @@ Object {
         class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
       >
         <span
-          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
         >
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
             data-testid="accessibility__font-size"
           >
             fontSize:md
           </div>
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
             data-testid="accessibility__theme"
           >
             theme:LIGHT
           </div>
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
             data-testid="accessibility__language"
           >
             language:es
@@ -36,6 +36,7 @@ Object {
           <img
             alt="LaManicurista Logo"
             class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+            id="la-manicurista-logo"
             src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
           />
         </div>
@@ -56,6 +57,7 @@ Object {
                 >
                   <input
                     class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                    data-testid="search-tracks__input"
                     placeholder="searchATrack0"
                     type="text"
                   />
@@ -106,22 +108,22 @@ Object {
       class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
     >
       <span
-        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
       >
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
           data-testid="accessibility__font-size"
         >
           fontSize:md
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
           data-testid="accessibility__theme"
         >
           theme:LIGHT
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
           data-testid="accessibility__language"
         >
           language:es
@@ -133,6 +135,7 @@ Object {
         <img
           alt="LaManicurista Logo"
           class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+          id="la-manicurista-logo"
           src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
         />
       </div>
@@ -153,6 +156,7 @@ Object {
               >
                 <input
                   class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                  data-testid="search-tracks__input"
                   placeholder="searchATrack0"
                   type="text"
                 />
@@ -260,22 +264,22 @@ Object {
         class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
       >
         <span
-          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+          class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
         >
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
             data-testid="accessibility__font-size"
           >
             fontSize:md
           </div>
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
             data-testid="accessibility__theme"
           >
             theme:LIGHT
           </div>
           <div
-            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+            class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
             data-testid="accessibility__language"
           >
             language:es
@@ -287,6 +291,7 @@ Object {
           <img
             alt="LaManicurista Logo"
             class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+            id="la-manicurista-logo"
             src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
           />
         </div>
@@ -307,6 +312,7 @@ Object {
                 >
                   <input
                     class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                    data-testid="search-tracks__input"
                     placeholder="searchATrack0"
                     type="text"
                   />
@@ -357,22 +363,22 @@ Object {
       class="MainLayoutstyled__StyledContainer-sc-1uk67oq-0 zmrhg"
     >
       <span
-        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
       >
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
           data-testid="accessibility__font-size"
         >
           fontSize:md
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
           data-testid="accessibility__theme"
         >
           theme:LIGHT
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
           data-testid="accessibility__language"
         >
           language:es
@@ -384,6 +390,7 @@ Object {
         <img
           alt="LaManicurista Logo"
           class="Logo__StyledImage-sc-15u0dw3-0 JzNII"
+          id="la-manicurista-logo"
           src="https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png"
         />
       </div>
@@ -404,6 +411,7 @@ Object {
               >
                 <input
                   class="Inputstyled__StyledInput-sc-792yv1-1 bwNuSi"
+                  data-testid="search-tracks__input"
                   placeholder="searchATrack0"
                   type="text"
                 />

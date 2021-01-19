@@ -6,22 +6,22 @@ Object {
   "baseElement": <body>
     <div>
       <span
-        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+        class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
       >
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
           data-testid="accessibility__font-size"
         >
           fontSize:md
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
           data-testid="accessibility__theme"
         >
           theme:LIGHT
         </div>
         <div
-          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+          class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
           data-testid="accessibility__language"
         >
           language:es
@@ -31,22 +31,22 @@ Object {
   </body>,
   "container": <div>
     <span
-      class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 eAWUXQ"
+      class="Accessibilitystyled__StyledContainer-sc-9t42tc-0 kWSkGR"
     >
       <div
-        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__font-size"
+        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__font-size"
         data-testid="accessibility__font-size"
       >
         fontSize:md
       </div>
       <div
-        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__theme"
+        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__theme"
         data-testid="accessibility__theme"
       >
         theme:LIGHT
       </div>
       <div
-        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 csAcQF accessibility__language"
+        class="Accessibilitystyled__StyledItem-sc-9t42tc-1 RXsxg accessibility__language"
         data-testid="accessibility__language"
       >
         language:es

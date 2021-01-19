@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useCallback } from 'react';
 
 const useControls = ({ src, player }) => {
   const play = () => {
@@ -6,7 +6,7 @@ const useControls = ({ src, player }) => {
       player?.current?.play();
     }
   };
-  const pause = () => player?.current?.pause();
+  const pause = useCallback(() => player?.current?.pause(), [player]);
 
   useEffect(() => {
     if (!src) pause();

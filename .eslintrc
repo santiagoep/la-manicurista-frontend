@@ -66,7 +66,8 @@
       "files": ["src/__e2e-test__/cypress/integration/*.spec.js"],
       "rules": {
         "jest/valid-expect-in-promise": 0,
-        "jest/valid-expect": 0
+        "jest/valid-expect": 0,
+        "cypress/no-unnecessary-waiting": 0
       }
     }
   ]

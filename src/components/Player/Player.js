@@ -16,14 +16,21 @@ import {
 import { buildArtistStr } from '@utils/strings';
 import useControls from '@hooks/useControls';
 
-const Player = ({ img, name, artists, src, ...rest }) => {
+const Player = ({
+  img,
+  name,
+  artists,
+  src,
+  'data-testid': dataTestId,
+  ...rest
+}) => {
   const player = useRef(null);
   const { play, pause } = useControls({ src, player });
 
   const renderArtists = () => <StyledH2>{buildArtistStr(artists)}</StyledH2>;
 
   return (
-    <StyledPlayer>
+    <StyledPlayer data-testid={dataTestId}>
       <StyledImage {...img} />
       <StyledHeader>
         <StyledLeft>
@@ -47,14 +54,16 @@ Player.propTypes = {
   }),
   name: PropTypes.string,
   artists: PropTypes.arrayOf(PropTypes.shape({ name: PropTypes.string })),
-  src: PropTypes.string
+  src: PropTypes.string,
+  'data-testid': PropTypes.string
 };
 
 Player.defaultProps = {
   img: {},
   name: '',
   artists: [],
-  src: undefined
+  src: undefined,
+  'data-testid': ''
 };
 
 export default Player;

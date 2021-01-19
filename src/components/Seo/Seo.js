@@ -2,10 +2,9 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 
 export const defaultSeoValues = {
-  title: 'Platzi | Catalogo',
-  keywords: 'Platzi, Test, Catalogo, Products',
-  description:
-    'Está página es una prueba construida para Platzi, que consiste en desarrollar un catalogo.',
+  title: 'LaManicurista App',
+  keywords: 'LaManicurista, Test, Songs, Songs Summaries',
+  description: 'Está página es una prueba construida para LaManicurista.',
   noIndex: false,
   author: 'Santiago Espitia Patiño'
 };
@@ -40,17 +39,20 @@ const Seo = ({ title, meta, snippets }) => {
       {noIndex && <meta name='robots' content='noindex' />}
       {snippets.length > 0 && renderSnippets()}
       {/* Facebook Open Graph start */}
-      <meta content='https://www.facebook.com/platzi' />
+      <meta content='https://www.facebook.com/la-manicurista' />
       <meta content='es' property='og:locale' />
-      <meta content='https://platzi-test.vercel.app/' property='og:site_name' />
-      <meta content='website' property='og:type' />
-      <meta content='Platzi Test Catalogo' property='og:title' />
       <meta
-        content='Está página es una prueba construida para Platzi, que consiste en desarrollar un catalogo.'
+        content='https://la-manicurista-test.vercel.app/'
+        property='og:site_name'
+      />
+      <meta content='website' property='og:type' />
+      <meta content='LaManicurista Test' property='og:title' />
+      <meta
+        content='Está página es una prueba construida para LaManicurista.'
         property='og:description'
       />
       <meta
-        content='https://platzi-test.vercel.app/_next/image?url=%2Ficons%2Flogo.png&w=64&q=75'
+        content='https://la-manicurista-test.vercel.app/_next/image?url=%2Ficons%2Flogo.png&w=64&q=75'
         property='og:image'
       />
       <meta content='64' property='og:image:width' />
@@ -59,16 +61,19 @@ const Seo = ({ title, meta, snippets }) => {
 
       {/* Twitter cards start */}
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:site' content='https://platzi-test.vercel.app/' />
+      <meta
+        name='twitter:site'
+        content='https://la-manicurista-test.vercel.app/'
+      />
       <meta name='twitter:creator' content='@santiagoep' />
-      <meta name='twitter:title' content='Platzi Test Catalogo' />
+      <meta name='twitter:title' content='LaManicurista Test' />
       <meta
         name='twitter:description'
-        content='Está página es una prueba construida para Platzi, que consiste en desarrollar un catalogo.'
+        content='Está página es una prueba construida para LaManicurista.'
       />
       <meta
         name='twitter:image'
-        content='https://platzi-test.vercel.app/_next/image?url=%2Ficons%2Flogo.png&w=64&q=75'
+        content='https://la-manicurista-test.vercel.app/_next/image?url=%2Ficons%2Flogo.png&w=64&q=75'
       />
       <meta name='twitter:image:width' content='64' />
       <meta name='twitter:image:height' content='75' />

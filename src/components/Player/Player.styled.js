@@ -13,7 +13,7 @@ export const StyledImage = styled.img`
   height: 150px;
   display: block;
   object-fit: cover;
-  ${({ theme }) => theme.breakpoints.tablet} {
+  ${({ theme }) => theme.breakpoints.laptop} {
     height: 100%;
   }
 `;
@@ -51,7 +51,7 @@ export const StyledPause = styled.button`
 
 export const StyledLeft = styled.div`
   padding: ${({ theme }) => theme.utils.spacing(3, 2)};
-  ${({ theme }) => theme.breakpoints.tablet} {
+  ${({ theme }) => theme.breakpoints.laptop} {
     float: left;
     width: 190px;
     padding: ${({ theme }) => theme.utils.spacing(7.5)};
@@ -60,7 +60,7 @@ export const StyledLeft = styled.div`
 
 export const StyledRight = styled.div`
   padding: ${({ theme }) => theme.utils.spacing(2, 2)};
-  ${({ theme }) => theme.breakpoints.tablet} {
+  ${({ theme }) => theme.breakpoints.laptop} {
     padding: ${({ theme }) => theme.utils.spacing(7.5, 0)};
     float: left;
     width: 150px;

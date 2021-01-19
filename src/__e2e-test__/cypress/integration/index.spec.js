@@ -1,62 +1,52 @@
 context('Home', () => {
   it('Go To Home', () => {
     cy.visit('/');
+    // Should render
+    cy.get('#la-manicurista-logo').should('be.visible');
+    cy.get('[data-testid=track]').should('have.length', 10);
+    cy.get('[data-testid=track-detail__no-track-selected]').should(
+      'be.visible'
+    );
+    cy.get('[data-testid=accessibility__font-size]').should('be.visible');
+    cy.get('[data-testid=accessibility__theme]').should('be.visible');
+    cy.get('[data-testid=accessibility__language]').should('be.visible');
+    cy.get('[data-testid=search-tracks__input]').should('be.visible');
 
-    cy.get('.product').should('have.length', 10);
+    // Should change accessibility settings
+    cy.get('[data-testid=accessibility__font-size]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('md')
+    );
+    cy.get('[data-testid=accessibility__font-size]').click();
+    cy.get('[data-testid=accessibility__font-size]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('lg')
+    );
+    cy.get('[data-testid=accessibility__theme]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('LIGHT')
+    );
+    cy.get('[data-testid=accessibility__theme]').click();
+    cy.get('[data-testid=accessibility__theme]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('DARK')
+    );
+    cy.get('[data-testid=accessibility__language]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('es')
+    );
+    cy.get('[data-testid=accessibility__language]').click();
+    cy.get('[data-testid=accessibility__language]').then(($fontSizeBtn) =>
+      expect($fontSizeBtn.text()).to.include('en')
+    );
 
     // Should search
-    cy.get('#query-text-filters').type('Chaqueta Negra');
-    cy.get('.product__price').should('have.length', 3);
-
-    // Should filter price from lowest to highest
-    cy.get('#sort-filters').select('price_from_lowest_to_highest');
-    cy.get('.product__price')
+    cy.get('[data-testid=search-tracks__input]').type('bohemian rhapsody');
+    cy.wait(1000);
+    cy.get('[data-testid=track]')
       .first()
-      .then(($productPrice) =>
-        expect($productPrice.text()).to.include('154.852')
-      );
-    cy.get('.product__price')
-      .eq(1)
-      .then(($productPrice) => {
-        expect($productPrice.text()).to.include('212.900');
-      });
-
-    // Should filter prices from highest to lowest
-    cy.get('#sort-filters').select('price_from_highest_to_lowest');
-    cy.get('.product__price')
+      .get('h2')
       .first()
-      .then(($productPrice) => {
-        expect($productPrice.text()).to.include('494.000');
-      });
-    cy.get('.product__price')
-      .eq(1)
-      .then(($productPrice) => {
-        expect($productPrice.text()).to.include('212.900');
-      });
+      .then(($name) => expect($name.text()).to.include('Bohemian Rhapsody'));
 
-    // Should clear search
-    cy.get('#query-text-filters').clear();
-    cy.get('.product').should('have.length', 10);
-    cy.get('.product__price')
-      .first()
-      .then(($productPrice) => {
-        expect($productPrice.text()).to.include('89.900');
-      });
-
-    // Should go to product detail
-    cy.get('.product').first().click();
-    cy.url().should('include', '/products/');
-    cy.get('[data-testid=product-detail__category-name]').should('be.visible');
-    cy.get('[data-testid=product-detail__name]').should('be.visible');
-    cy.get('[data-testid=product-detail__description]').should('be.visible');
-    cy.get('[data-testid=product-detail__go-back]').should('be.visible');
-
-    // Should go back to home
-    cy.get('[data-testid=product-detail__go-back]').click();
-
-    // Should click on logo and back to home
-    cy.get('.product').first().click();
-    cy.get('[alt="Logo Platzi"]').click();
-    cy.url().should('include', '/');
+    // Should show player
+    cy.get('[data-testid=track]').first().click();
+    cy.wait(1000);
+    cy.get('[data-testid=track-detail__player').should('be.visible');
   });
 });

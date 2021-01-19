@@ -10,6 +10,7 @@ const Logo = () => (
   <StyledImage
     src='https://lamanicurista.com/wp-content/uploads/2019/01/Logo-La-manicurista-1.png'
     alt='LaManicurista Logo'
+    id='la-manicurista-logo'
   />
 );
 

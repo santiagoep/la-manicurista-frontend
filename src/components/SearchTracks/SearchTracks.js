@@ -28,6 +28,7 @@ const SearchTracks = ({
     <StyledContainer>
       <StyledSearchContainer>
         <Input
+          data-testid='search-tracks__input'
           placeholder={`${t('searchATrack')}${formatNumber(total)}`}
           onChange={(e) => {
             e.persist();
