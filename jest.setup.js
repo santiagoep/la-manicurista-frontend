@@ -11,8 +11,4 @@ jest.mock('next/link', () => ({ children, ...rest }) => (
   <div {...rest}>{children}</div>
 ));
 
-jest.mock('react-slick', () => ({ children, ...rest }) => (
-  <div {...rest}>{children}</div>
-));
-
 Enzyme.configure({ adapter: new Adapter() });
