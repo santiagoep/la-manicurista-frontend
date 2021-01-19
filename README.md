@@ -2,7 +2,7 @@
 
 Reproductor de resumenes de canciones utilizando la api de Spotify
 
-[DEMO](https://santiagoep.github.io/song-summaries/#/)
+[DEMO](https://la-manicurista-frontend.vercel.app/)
 
 ## Desktop
 
